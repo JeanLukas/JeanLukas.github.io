@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #bdbdbd;
+    margin: 0;
+    overflow: hidden;
+}
+
+html,body{
+    height: 100%;
+}
+
+.parent{
+    display: flex;
+}
+.sidebar{
+    width: 20%;
+    height:100% ;
+    position: fixed;
+    background-color: #910000;
+}
+.sidebar-pos{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.menu{
+    margin-left: -30%;
+    font-family: monospace;
+    text-align: center;
+}
+.menu a{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.menu a:hover{
+    color: white;
+    opacity: 2;
+    font-size: 19px;
+    font-weight: bolder;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+    cursor: pointer;
+    margin-left: 20%;
+}
+.content{
+    
+    font-family:'Langar', cursive;
+
+    left: 20%;
+    width: 80%;
+    height: 100%;
+    overflow-y: auto;
+    padding: 0 1%;
+    position: fixed;
+    color:#740000;
+    font-weight: bold;
+}
+.assunto{
+    display: inline;
+    color: rgb(180, 180, 180);
+    font-family: 'Lato', sans-serif;
+    width: 433px;
+    margin: 0px;
+    height: 90px;
+}
+.assunto label {
+    display: block;
+}
+.contato{
+    color: rgb(180, 180, 180);
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    padding-top: 10px;
+}
+.contato input {
+    width: 200px;
+    height: 40px;
+    
+}
+.descricao{
+    color: white;
+}
+.email{
+    color: rgb(180, 180, 180);
+    font-family: 'Lato', sans-serif;
+    width: 200px;
+    padding-top: 20px;
+    
+}
+.fundo {
+    margin-left: 20%;
+    background:black;
+    width: 80%;
+    height: 100%;
+    opacity:0.9;
+    position: absolute;
+    z-index: 99;
+  }
+.citacao{
+    margin-top: 0;
+    margin-left: 42%;
+    display: inline-block;
+    font-family:'Langar', cursive;
+}
+.redes_sociais{
+    margin-top: 2%;
+    display:inline-block;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.linkedin{
+    margin-right: 10px;
+    margin-left:5px;
+    height: 50px;
+}
+.insta{
+    margin-right: 40px;
+    margin-left:5px;
+    height: 50px;
+}
+.face{
+    margin-right: 40px;
+    margin-left:5px;
+    height: 50px;
+}
+.git{
+
+    margin-right: 40px;
+    margin-left:5px;
+    height: 50px;
+}
+.boneco {
+    margin-left: -15%;
+    margin-top: -50%;
+    height: 400px;
+    width: 400px;
+}
+.campo{
+    margin-left: 50%;
+    margin-top: 50%;
+}
+.botao{
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    width: 80px;
+    height: 50px;
+}
+
+/*CSS DA PAGINA CONHECIMENTO */
+
+body{
+    background-color: #740000;
+}
+
+.barrinha {
+    
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 20px;  
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px rgba(255, 255, 255, 0.08);
+    padding: 4px;
+}
+
+.sec{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.html, .react, .C, .C1, .C2{
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+ 
+}
+
+.kotlin{
+    margin-left: -10px;
+    width: 80px;
+    height: 60px;
+}
+

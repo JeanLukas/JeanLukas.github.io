@@ -1,1 +1,94 @@
-Hello World
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <title>Meu portifófio</title>
+</head>
+<!-- TECLA PARA ABRIR O LIVE ctrl + shift + p -->
+<body>
+    
+    <div class="parent">
+    <div class="sidebar">
+
+        <div class="sidebar-pos">
+      
+            <div>
+                <div class="img">
+                <img class="boneco" src="img/logo.png" alt="">
+                </div>
+
+                <div class="menu">
+                    <a href="SobreMim.html">Sobre Mim</a>
+                    <a href="Conhecimento.html">Conhecimento</a>
+                    <a href="Projetos.html"> Projetos</a>
+        
+                </div>
+            </div> <!--DIV DO MENU E IMG-->
+        </div> <!-- DIV SIDE BAR POS-->
+    </div> <!-- DIV SIDE BAR-->
+   
+    <div class="content">
+       
+        <section class="descricao">
+            <h1>Jean Lukas Andrade Restelli</h1>
+            <h3>+55 (54) 9 996686988 - <span>jeanlofiicial@gmail.com / jeanlarestelli@gmail.com</span> </h3>
+            <p> <em>
+                "Um ser humano deve transformar informação em inteligência ou conhecimento. 
+                <!--colocar para baixo-->
+                Tendemos a esquecer que nenhum computador jamais fará uma nova pergunta."  <strong><h3> Grace Hopper.</h3></strong>  <small> cientista da computação pioneira em programação</small>
+            </em>
+            </p>
+            <div class="redes_sociais">
+                <a target="_blank" href="https://www.instagram.com/itsjeanlukas">
+            
+                    <img class="insta" src="img/instagram.png" alt="INSTAGRAM">
+                </a>
+            
+                <a class="link" target="_blank" href="https://www.facebook.com/jean.lukas.7">
+            
+                    <img class="face" src="img/facebook.png" alt="FACEBOOK">
+                </a>
+            
+                <a target="_blank" href="https://www.github.com/JeanLukas">
+            
+                    <img  class="git" src="img/github.png" alt="GITHUB">
+                </a>
+            
+                <a target="_blank" href="https://www.linkedin.com/in/jean-lukas-andrade-restelli">
+            
+                    <img class="linkedin" src="img/linkedin.png" alt="GITHUB">
+                </a>
+            </div>
+        </section>
+        <div class="contato">
+            <label for="Nome"><strong> Nome Completo: </strong></label>
+            <input type="text" style=" width: 400px; font-size: 20px; padding: 10px;" name="nome" id="nome">
+        </div>
+        <div class="email">
+            <label for="email" ><strong>Email: </strong></label>
+            <input type="email" style=" width: 400px; font-size: 20px; padding: 10px;" nome="email" id="email" title="Insira seu email" required>
+        </div>
+
+        <div class="assunto"> 
+            <br>
+            <label class="cor"><strong>Escreva sua dúvida ou pergunta aqui: </strong></label>
+            <textarea rows = " 6 " style=" width: 642px; height: 209px; font-size: 20px; padding: 10px;" id="doubts" required></textarea>
+        </div>
+        <button class="botao" type="submit">Enviar</button>
+        <footer>&Copyright</footer>
+    </div><!--Content-->
+   
+    </div> <!--Parent-->
+    <!--
+    <div >
+        <img class="fundo" src="img/markus-spiske-70Rir5vB96U-unsplash-scaled.jpg">
+    </div>
+    -->
+    <canvas id="canvas"></canvas>
+   <script src="script.js"></script>
+</body>
+</html>

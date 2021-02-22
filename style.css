@@ -99,6 +99,9 @@ h1{
     padding-top: 20px;
     
 }
+input[type="email"]:invalid{
+    border-color: red;
+}
 .fundo {
     margin-left: 20%;
     background:black;
